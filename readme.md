@@ -15,7 +15,7 @@ O projeto contém os seguintes arquivos e pastas:
 
 ```
 /IMAGENS  -> Pasta para armazenar prints de tela como comprovante da execução
-index.js  -> Código principal para gerar a carteira Bitcoin testnet
+/SRC/CreateWallet.js  -> Código principal para gerar a carteira Bitcoin testnet
 README.md -> Documentação do projeto
 ```
 
@@ -34,7 +34,7 @@ npm install bitcoinjs-lib bip32 bip39
 Após a instalação das dependências, execute o seguinte comando para gerar a carteira:
 
 ```sh
-node index.js
+node .\src\CreateWallet.js
 ```
 
 O resultado exibirá:
