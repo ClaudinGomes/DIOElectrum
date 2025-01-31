@@ -54,7 +54,36 @@ Todos os passos da execução foram registrados em prints de tela, armazenados n
 
 ## 🔍 Observações
 - Esta carteira é gerada na **testnet**, uma rede de testes do Bitcoin. **Não utilize para transações reais**.
-- A chave privada gerada deve ser **mantida em segurança** para evitar perdas de acesso.
+A chave privada gerada deve ser mantida em segurança para evitar perdas de acesso.
+
+
+## 💻 Testes na Testnet
+
+Se você deseja testar a carteira gerada com a testnet, siga os passos abaixo:
+
+### 1. Obtendo Testnet BTC
+Você pode usar o **faucet** para receber uma pequena quantia de Bitcoin de testnet, que pode ser utilizada para transações de teste.
+
+- **Faucet BTC Testnet**:  
+   Acesse o faucet e insira seu endereço de Bitcoin de testnet para receber os fundos:  
+   [BTC Testnet Faucet](https://testnet.help/en/btcfaucet/testnet#log)
+
+**Passos**:
+
+1. Gere um endereço de testnet (por exemplo, usando uma carteira compatível com testnets).
+2. Copie o endereço e cole no campo indicado no faucet.
+3. Aguarde a transação ser enviada para seu endereço.
+
+### 2. Acompanhando Blocos na Testnet
+Após realizar transações ou acompanhar a atividade de blocos na testnet, você pode visualizar detalhes de transações e blocos usando os seguintes exploradores de blocos:
+
+- **Blockstream - Testnet**:  
+   Visualize os blocos na testnet e consulte transações:  
+   [Blockstream Testnet](https://blockstream.info/testnet/address/)
+
+- **Mempool - Testnet**:  
+   Outra excelente ferramenta para ver a atividade de blocos na testnet:  
+   [Mempool Testnet4](https://mempool.space/testnet4)
 
 ## 👨‍💻 Autor
 Este projeto foi desenvolvido como parte da formação **Blockchain Specialist**.
